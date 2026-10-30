@@ -5,7 +5,7 @@ Run each morning. Goal: one listenable episode combining every AI newsletter tha
 ## 1. Collect
 - Read `state.json` → `last_cutoff_unix`. Record the current time (`date -u +%s`) as the new cutoff before searching.
 - Gmail (helmstettergreg@gmail.com) search: `label:"AI news" after:<last_cutoff_unix>`. Fetch each with PLAIN_TEXT.
-- Skip non-newsletter mail the label catches, e.g. Built In "Job Matches" job alerts. Built In "Editors' Picks" is fine (use only AI-related items).
+- Skip non-newsletter mail the label catches, e.g. Built In "Job Matches" job alerts, and subscription confirmations / welcome emails (e.g. "Confirmation: Your subscription to the AI Breakfast Newsletter"). Built In "Editors' Picks" is fine (use only AI-related items).
 - If nothing qualifies: update `state.json` cutoff, commit, push, and stop (no episode).
 
 ## 2. Write `scripts/YYYY-MM-DD.txt` (today's Mountain-time date)
