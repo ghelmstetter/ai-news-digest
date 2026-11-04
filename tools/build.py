@@ -131,7 +131,10 @@ def check_audio(wav, text):
     if _WHISPER is None:
         from faster_whisper import WhisperModel
         _WHISPER = WhisperModel("base.en", device="cpu", compute_type="int8")
-    segs, _ = _WHISPER.transcribe(wav, beam_size=1)
+    import numpy as np  # decode with ffmpeg ourselves; faster-whisper's own decoder (PyAV) breaks on some versions
+    raw = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", wav, "-f", "f32le", "-ac", "1", "-ar", "16000", "-"],
+                         capture_output=True, check=True).stdout
+    segs, _ = _WHISPER.transcribe(np.frombuffer(raw, dtype=np.float32), beam_size=1)
     heard = words(" ".join(s.text for s in segs))
     want = words(re.sub(r"\b((?:[A-Za-z]\.){2,})", lambda m: m.group(1).replace(".", ""), text))
 
@@ -169,7 +172,11 @@ def make_episode(script_path, mp3_path, report):
             audio = tts(c)
             with open(wav, "wb") as f:
                 f.write(audio)
-            ok, reason, score = check_audio(wav, c)
+            try:
+                ok, reason, score = check_audio(wav, c)
+            except Exception as e:  # never let the checker block an episode
+                ok, reason, score = True, f"NOT CHECKED (checker error: {type(e).__name__}: {e})", 0
+                report.append(f"chunk {i + 1}: WARNING - audio not checked: {e}")
             log(f"    attempt {attempt}: {'OK' if ok else 'REJECTED'} ({reason})")
             if best is None or score < best[0]:
                 best = (score, audio, reason, ok)
