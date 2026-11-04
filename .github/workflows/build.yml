@@ -3,7 +3,7 @@ name: Build episode
 on:
   push:
     branches: [main]
-    paths: ["scripts/**", "tools/**", ".github/workflows/**"]
+    paths: ["scripts/**", "tools/**", "redo.txt", ".github/workflows/**"]
   workflow_dispatch:
     inputs:
       redo_date:
@@ -32,8 +32,16 @@ jobs:
             mkdir -p site
           fi
 
-      - name: Install ffmpeg
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Install ffmpeg and speech checker
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q faster-whisper
+
+      - name: Cache speech-check model
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: whisper-base-en
 
       - name: Generate audio and feed
         env:
