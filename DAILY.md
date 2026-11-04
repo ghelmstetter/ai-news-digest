@@ -10,7 +10,7 @@ Run each morning. Goal: one listenable episode combining every AI newsletter tha
 
 ## 2. Write `scripts/YYYY-MM-DD.txt` (today's Mountain-time date)
 - Written to be heard, not read: no URLs, no "click here", no emoji, no markdown, no bullet characters.
-- Open: "Good morning. This is your AI news digest for <Weekday>, <Month> <day>. Today's episode draws on <newsletter names>." Close: "That's the digest for today. Have a good workout."
+- Open: "Good morning. This is your AI news digest for <Weekday>, <Month> <day>. Today's episode draws on <newsletter names>." Close simply: "That's the digest for today." No sign-off that assumes where or when Greg is listening (no "have a good workout", no "good morning" references beyond the opening).
 - Lead with the biggest stories. When several newsletters cover the same story, tell it ONCE, combining their details. Group related items (e.g. several stories about one company).
 - Drop all sponsored content, ads, referral pitches, job listings, and newsletter housekeeping.
 - Stay faithful to the sources: no facts beyond what the newsletters say; keep their hedges ("reportedly", "alleged", "claims").
