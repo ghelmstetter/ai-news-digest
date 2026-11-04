@@ -23,4 +23,5 @@ Run each morning. Goal: one listenable episode combining every AI newsletter tha
 ## 4. Publish
 - Set `state.json` `last_cutoff_unix` to the cutoff recorded in step 1.
 - `git add -A && git commit && git push origin main`. The GitHub Action voices it with Gemini TTS and updates the feed at https://ghelmstetter.github.io/ai-news-digest/feed.xml.
+- The Action checks every voiced paragraph for repeats or skipped text and retries bad ones (up to 4 tries). Its report is at `qa/YYYY-MM-DD.txt` on the gh-pages branch (`git show origin/gh-pages:qa/<date>.txt`). If any line says WARNING, include it in the final summary.
 - Confirm a few minutes later that `git ls-remote origin gh-pages` changed / `git fetch origin gh-pages && git show origin/gh-pages:feed.xml | grep <today's date>` shows the new episode.
