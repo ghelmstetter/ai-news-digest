@@ -1,0 +1,49 @@
+name: Transcribe episode (QA)
+
+# Push a file named check/YYYY-MM-DD to transcribe that episode.
+# The transcript (with timestamps) is pushed to the "transcripts" branch.
+on:
+  push:
+    branches: [main]
+    paths: ["check/**"]
+
+permissions:
+  contents: write
+
+jobs:
+  transcribe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Which episodes
+        id: which
+        run: |
+          days=$(git diff --name-only HEAD~1 HEAD -- check/ | xargs -n1 basename | tr '\n' ' ')
+          echo "days=$days" >> "$GITHUB_OUTPUT"
+      - run: pip install -q faster-whisper
+      - name: Transcribe
+        run: |
+          git fetch --depth=1 origin gh-pages
+          mkdir -p out
+          for d in ${{ steps.which.outputs.days }}; do
+            git show origin/gh-pages:episodes/$d.mp3 > /tmp/$d.mp3
+            python3 - "$d" <<'EOF'
+          import sys
+          from faster_whisper import WhisperModel
+          d = sys.argv[1]
+          m = WhisperModel("small.en", device="cpu", compute_type="int8")
+          segs, _ = m.transcribe(f"/tmp/{d}.mp3", vad_filter=False)
+          with open(f"out/{d}.txt", "w") as f:
+              for s in segs:
+                  f.write(f"[{s.start:7.1f}-{s.end:7.1f}] {s.text.strip()}\n")
+          EOF
+          done
+      - name: Push transcripts
+        run: |
+          cd out
+          git init -q -b transcripts
+          git config user.name digest-bot; git config user.email digest-bot@users.noreply.github.com
+          git fetch -q --depth=1 "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" transcripts && git reset -q --soft FETCH_HEAD || true
+          git add -A && git commit -q -m "Transcripts" && git push -q "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" HEAD:transcripts
