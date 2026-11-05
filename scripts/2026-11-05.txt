@@ -1,0 +1,31 @@
+Good morning. This is your AI news digest for Thursday, November fifth. Today's episode draws on The Rundown. It's a lighter day in the inbox, but there's a lot in it: an A.I. agent that will now make your phone calls for you, a sharp turn against data centers in the midterm elections, and a handful of deals and model releases. Let's get into it.
+
+We start with SpaceXSI, which just rolled out phone calls in Grok Bot, the company's A.I. agent platform. Grok Bot can now sit on hold, book appointments, and negotiate bills on U.S. phone numbers. If a representative on the other end asks something the bot can't answer, the user gets a message mid-call and can type a reply for the bot to pass along, all while following a live transcript of the conversation.
+
+The calls appear to run directly inside the platform through a temporary number. Early examples shared by users include negotiating a Comcast bill and ordering a pizza. There is an important catch in the fine print. SpaceXSI's terms make the user the "caller of record," and "solely responsible" for every call the bot makes and for following phone laws. The bots disclose that they are a "virtual assistant."
+
+Grok Bot is available to paid users, and when people complained about usage limits, Elon Musk answered by calling the platform's cost "unsustainably high relative to revenue."
+
+The Rundown's take: A.I. labs keep pitching agents as a way to take annoying life tasks off people's plates, and phone calls sit near the top of a lot of people's lists. SpaceXSI says Grok Voice already answers twenty thousand Starlink calls a day, by its own count, and with rival agents moving in the same direction, the newsletter suggests the phone could soon go the way of the agentic internet, with bots talking to other bots.
+
+Our second big story is political. In the U.S. midterm elections, voters backed limits on data centers almost everywhere those measures appeared on local ballots, and handed Congress to Democrats, who are promising tougher oversight of Silicon Valley.
+
+The numbers are lopsided. According to election trackers, data center opponents have won thirty-eight of thirty-nine fully counted local measures, with only Harwood, North Dakota, voting the other way. In NBC's exit poll, seventy-six percent of voters said they would oppose a data center going up in their own community, and fifty-seven percent said they expect A.I. to hurt society more than help it.
+
+The financial world is paying attention. Goldman Sachs reportedly sees forty-five percent of planned U.S. data center capacity at risk of temporary freezes, though it figures the political heat will cool over time. And Elon Musk, the biggest midterm donor at four hundred forty-six million dollars backing Republicans, posted after the results that data centers in space look "pretty appealing right now."
+
+The Rundown calls this a heavy public rebuke of A.I. and the data center buildout. With A.I. infrastructure hubs like Texas flipping blue, and Democrats about to run the hearings on A.I. regulation, the newsletter argues the ground under the whole industry just shifted, and that the days of a hands-off federal approach to U.S. A.I. labs are likely coming to an end.
+
+Now to deals. OpenAI is acquiring Pierre, the startup behind the code review tools inside Codex, and plans to add Pierre's Code Storage service to its platform as well. And on the other side of the coding race, A.I. coding startup Conductor is joining Meta. Conductor's platform helps developers manage multiple A.I. agents at the same time, which fits the broader push toward running whole teams of coding agents rather than one assistant.
+
+On the model front, a few releases worth knowing. A.I. chip design startup Ricursive released Ripple sixty-five B Preview, an open model it says cost thirty-two million dollars to build, and which it says tops U.S. open models on a coding agent test. Tencent has a new flagship open-source model called Hy four. And Moonshot A.I. has Kimi K three point one Pro, a powerful open-weight model. Taken together, it's another reminder of how crowded the open model field has become.
+
+In detection, A.I. detection startup Pangram launched Image one point oh, a model for spotting A.I.-generated images and video. It also works through the company's Chrome extension.
+
+Before we wrap, two practical notes from The Rundown's training section. First, a tip from Rundown educator Nate Grahek on getting more out of a twenty-dollar A.I. plan. His point is that every session is finite, and most people burn their credits making huge changes to a deck or website that's already been built. His advice: before anything gets built, tell the A.I. not to start yet. Ask it to keep replies to a paragraph or two, to ask you smart multiple-choice questions, or better yet to sketch the plan right in the chat, using features like Claude's custom visuals or ChatGPT's new Intelligent U.I. to drop in a chart, table, or flow diagram. Agree on the path first, and you cut big chunks of work you'll never have to do.
+
+Second, The Rundown put together a guide to choosing among free A.I. tools. ChatGPT, Claude, Copilot, Gemini, Grok, and Perplexity all have free plans, but with different tools and limits. The suggested approach is to run the same tasks in each one, using personal accounts and keeping private work out of it, check the answers against official sources, and score each for accuracy, source quality, file handling, and usefulness. Then pick a main assistant, a research tool, and a backup. Their pro tip: a free plan can be generous for chat but tight on uploads, image creation, or research, so check the limit that applies to the task you actually do.
+
+And one reader story: Keith Weinberger built a searchable family archive of handwritten letters and photos from a relative's basic training in nineteen forty-two and forty-three, entirely through prompts. He designed the site in Google A.I. Studio, built and hosted it on Replit, and set up a workflow that pulls text from the scanned handwritten letters so the whole collection can be searched and queried through A.I. chat.
+
+That's the digest for today.
