@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI News Digest</title>
+    <link>https://ghelmstetter.github.io/ai-news-digest/</link>
+    <atom:link href="https://ghelmstetter.github.io/ai-news-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>A private daily audio digest of AI newsletters.</description>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Nov 2026 17:25:03 +0000</lastBuildDate>
+    <itunes:author>AI News Digest</itunes:author>
+    <itunes:image href="https://ghelmstetter.github.io/ai-news-digest/cover.png"/>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:block>Yes</itunes:block>
+    <itunes:category text="Technology"/>
+    <item>
+      <title>Fri Nov 13: Jensen Huang resigns as Nvidia CEO, Gemini 4 Hydrogen, lawsuit to freeze frontier AI</title>
+      <description>Sources: The Rundown, TLDR AI, AI Breakfast, Built In. Stories: Jensen Huang resigns, Colette Kress interim CEO, Harvey Jones board chair, stock reaction and Nov 17 earnings; Chinese labs&#x27; models reportedly carry Blackwell fingerprints; Gemini 4 Hydrogen, Gemini Decisions API, Google/Samsung Gemini smart glasses; nonprofits sue to freeze frontier AI; self-hosted Claude Managed Agents, Claude Meetings, Claude Connectors outage; Replit Agent commerce, Meta Muse calling, United blocks agent bookings; OpenAI Daybreak, IBM Granite LLMON, AWS emulator; SpaceX, SoftBank, CoreWeave, Fed warning; AlphaGenome 2, Inkling 2 Small, World Labs Atlas, Perplexity Decider; Built In AI reads.</description>
+      <guid isPermaLink="false">ai-news-digest-2026-11-13</guid>
+      <pubDate>Fri, 13 Nov 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://ghelmstetter.github.io/ai-news-digest/episodes/2026-11-13.mp3" length="4148588" type="audio/mpeg"/>
+      <itunes:duration>8:38</itunes:duration>
+    </item>
+    <item>
+      <title>Thu Nov 12: Nvidia board reportedly moves to oust Jensen Huang, AlphaGenome 2, Grok Bot 1.0</title>
+      <description>Sources: TLDR AI, The Rundown. Stories: Nvidia board reportedly preparing to remove Jensen Huang after second affair report, Economist and Congress calls to resign, $427B market value drop; DeepMind AlphaGenome 2; SpaceXSI Grok Bot 1.0 Team Bots; Gemini Decisions API, A2UI 1.0, Antigravity browser use, Google Tabletop; Anthropic IPO reportedly oversubscribed; OpenAI&#x27;s first $10B quarter, MCP extensions, agent signals proposal, ChatGPT Business Hub; United blocks AI agents; Runway Praxis-1; MCP context costs, Perplexity sandbox escapes, filler-token reasoning; Airbnb, Shopify, Databricks, ElevenLabs Scribe V3; Claude Projects knowledge files; AI agents find possible Maya site.</description>
+      <guid isPermaLink="false">ai-news-digest-2026-11-12</guid>
+      <pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://ghelmstetter.github.io/ai-news-digest/episodes/2026-11-12.mp3" length="4083308" type="audio/mpeg"/>
+      <itunes:duration>8:30</itunes:duration>
+    </item>
+    <item>
+      <title>Wed Nov 11: Anthropic&#x27;s trillion-dollar IPO terms, Gemini 4 Carbon goes wide, ChatGPT opens for business</title>
+      <description>Sources: AI Breakfast, TLDR AI, The Rundown. Stories: Anthropic IPO roadshow, $70-78 shares under ANT, up to $1.4 trillion valuation, $26B strategic partner buy, debut Nov 19-20, AI R&amp;D threshold met, Lambda deal terminable; OpenAI&#x27;s reported $10.9B Q3 loss; more Fable 5.2 details; Gemini 4 Carbon generally available, Antigravity /swarm, Gemini for Healthcare; Businesses in ChatGPT and OpenAI buys Odessia; Claude Sheets, Whiteboards, Data, Meetings; AI 2027 authors move timelines up; Grok Build, Notion, Railway security exposures; Australia regulator and Paris Call; AlphaProof Code, MAI-Transcribe-2, Adobe MCP, GR00T 2, LongCat 2.5.</description>
+      <guid isPermaLink="false">ai-news-digest-2026-11-11</guid>
+      <pubDate>Wed, 11 Nov 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://ghelmstetter.github.io/ai-news-digest/episodes/2026-11-11.mp3" length="3933548" type="audio/mpeg"/>
+      <itunes:duration>8:11</itunes:duration>
+    </item>
+    <item>
+      <title>Tue Nov 10: Anthropic&#x27;s Fable 5.2 takes the top spot, Meta&#x27;s cheap Muse Ember, Google&#x27;s new TPUs</title>
+      <description>Sources: The Rundown, TLDR AI. Stories: Anthropic releases Claude Fable 5.2 and Mythos 5.2, cheaper and faster, No. 1 on Artificial Analysis, &#x27;pacing, not pausing&#x27;; Anthropic IPO prep, compute bill analysis, gas generators, AI accelerating AI R&amp;D; Meta&#x27;s Muse Ember agent model at a third of Haiku&#x27;s per-task cost; Google TPU 8tx and 8i Max; Nvidia Megaspeed smuggling probe; Fireworks hack; OpenAI Control Room and ChatGPT Enterprise on AWS; Adobe-Disney deal; Instagram Effect Builder; Apple Logic Pro usage packs; Nvidia AutoCompress and GR00T 2; Seedream 5.5, Inkling 2 Small.</description>
+      <guid isPermaLink="false">ai-news-digest-2026-11-10</guid>
+      <pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://ghelmstetter.github.io/ai-news-digest/episodes/2026-11-10.mp3" length="3829484" type="audio/mpeg"/>
+      <itunes:duration>7:58</itunes:duration>
+    </item>
+    <item>
+      <title>Mon Nov 9: Nvidia board probes Jensen Huang spy claims, OpenAI raises $11B not $30B, A.I. accelerating A.I. research</title>
+      <description>Sources: The Rundown, TLDR AI, AI Breakfast. Stories: Jensen Huang admits affair as Nvidia board investigates reported foreign intelligence effort, congressional pressure, Korea worries and Nvidia&#x27;s losing streak; OpenAI closes $11B at $1.25T after a $30B target, Anthropic IPO valuation pressure, Thinking Machines raise; Anthropic takes over 1.7 GW of gas generators from OnePWR; A.I. accelerating A.I. research, METR redactions, OpenAI R&amp;D automation; PSI proves Aaronson-Ambainis conjecture with an Anthropic model; Claude agent memory &#x27;dreaming&#x27;; policy and jobs; Inkling 2 Small, Gemini Omni 1.2 Flash, Perplexity Teammates, OpenRouter Auto Router, Muse Spaces; Microsoft&#x27;s AI Frontiers reorganized.</description>
+      <guid isPermaLink="false">ai-news-digest-2026-11-09</guid>
+      <pubDate>Mon, 09 Nov 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://ghelmstetter.github.io/ai-news-digest/episodes/2026-11-09.mp3" length="4343084" type="audio/mpeg"/>
+      <itunes:duration>9:02</itunes:duration>
+    </item>
+    <item>
+      <title>Fri Nov 6: METR finds Anthropic&#x27;s A.I. speedup, OpenAI&#x27;s Critical-rated GPT-6 Cyber, data center votes hit chip stocks</title>
+      <description>Sources: The Rundown, TLDR AI, AI Breakfast, Built In. Stories: METR&#x27;s inside assessment of Anthropic&#x27;s roughly 2x AI R&amp;D speedup, redactions and internal models; Claude Personal Finance, enterprise DLP hooks, AP election data deal; OpenAI GPT-6 Cyber rated Critical, Firefox bugs and 948 Linux exploits; Images 2.6 adds GIFs; data centers lose 40 of 41 ballot measures, Nasdaq falls 5.5% and chip stocks slide; Pierre and Conductor follow-ups, Cat Wu joins OpenAI; Inkling 2 Small, Gemini Omni 1.2 Flash, Cursor live apps, Perplexity Teammates, Notion shared memory; Stacks Project in Lean, AlphaEvolve, Nvidia Cosmos 3 and VFlash; quick hits.</description>
+      <guid isPermaLink="false">ai-news-digest-2026-11-06</guid>
+      <pubDate>Fri, 06 Nov 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://ghelmstetter.github.io/ai-news-digest/episodes/2026-11-06.mp3" length="4241324" type="audio/mpeg"/>
+      <itunes:duration>8:50</itunes:duration>
+    </item>
+    <item>
+      <title>Thu Nov 5: Grok Bot makes phone calls, midterm voters reject data centers, OpenAI buys Pierre</title>
+      <description>Sources: The Rundown. Stories: SpaceXSI&#x27;s Grok Bot adds phone calls (users are caller of record); midterm voters back data center limits in 38 of 39 measures, NBC exit poll on AI, Goldman&#x27;s capacity-freeze estimate; OpenAI acquires Pierre, Conductor joins Meta; Ricursive Ripple-65B, Tencent Hy4, Kimi K3.1 Pro; Pangram Image 1.0; tips on sketch-before-build prompting and comparing free AI tools; reader&#x27;s AI family-letter archive.</description>
+      <guid isPermaLink="false">ai-news-digest-2026-11-05</guid>
+      <pubDate>Thu, 05 Nov 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://ghelmstetter.github.io/ai-news-digest/episodes/2026-11-05.mp3" length="2855468" type="audio/mpeg"/>
+      <itunes:duration>5:56</itunes:duration>
+    </item>
+    <item>
+      <title>Wed Nov 4: Siri AI opens to developers, Anthropic&#x27;s $895B commitments, OpenAI hires Anthropic&#x27;s hackers</title>
+      <description>Sources: The Rundown, TLDR AI, AI Breakfast. Stories: Apple&#x27;s Siri AI developer preview in iOS 27.3 betas; Anthropic&#x27;s amended S-1 details (Q3 revenue, operating loss, $895B commitments, RSP warning) and Cat Wu&#x27;s exit; OpenAI partners with Cathedral and reprices its bug bounty; CrowdStrike AI Kill Switch and acquisitions; Google ties Search to AI for K-12 accounts; ChatGPT usage numbers and LifeVal; caveats on MIT weight-editing result; DeepSeek on Huawei Ascend; quick hits.</description>
+      <guid isPermaLink="false">ai-news-digest-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://ghelmstetter.github.io/ai-news-digest/episodes/2026-11-04.mp3" length="4197164" type="audio/mpeg"/>
+      <itunes:duration>8:44</itunes:duration>
+    </item>
+    <item>
+      <title>Tue Nov 3: AI rewrites AI weights, Anthropic&#x27;s IPO filing flags self-improvement, OpenAI&#x27;s busy day</title>
+      <description>Sources: The Rundown, TLDR AI. Stories: MIT shows GPT-6 Astra improving models by editing weights directly; Anthropic&#x27;s amended IPO prospectus, Q3 financials and RSI warning; Claude message threads beta and Claude Code game-rebuild refusals; GPT-6.2 Astra spotted in Codex; OpenAI LifeVal benchmark, Abu Dhabi deals, ChatGPT Chat and Work tabs merge; Grok Bot usage cuts; Marvell to acquire Lumentum for $115B; engineering notes from Copilot Cowork, Framer Harness 2, NVIDIA Cosmos, GitHub Enclaves; quick hits.</description>
+      <guid isPermaLink="false">ai-news-digest-2026-11-03-v2</guid>
+      <pubDate>Tue, 03 Nov 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://ghelmstetter.github.io/ai-news-digest/episodes/2026-11-03.mp3" length="3897644" type="audio/mpeg"/>
+      <itunes:duration>8:07</itunes:duration>
+    </item>
+    <item>
+      <title>Mon Nov 2: OpenAI trims its funding round, data centers on the ballot, backdoored Claude Code extension</title>
+      <description>Sources: The Rundown, TLDR AI, AI Breakfast. Stories: OpenAI reportedly cuts round to $20B as Big Tech capex strains cash flow and Anthropic credit outlook; midterm data center votes and OpenAI&#x27;s &#x27;compute campus&#x27; rebrand; Google Suncatcher runs Gemma in orbit; tampered Claude Code extension on Cursor&#x27;s marketplace; agents raising their own spending caps; Anthropic misalignment and data-poisoning research; DeepSeek&#x27;s open-source super-agent; Mythos 5.5 sighting, Claude Ultra plan, OpenAI usage changes, GPT-Rosalind-6; quick hits.</description>
+      <guid isPermaLink="false">ai-news-digest-2026-11-02-v2</guid>
+      <pubDate>Mon, 02 Nov 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://ghelmstetter.github.io/ai-news-digest/episodes/2026-11-02.mp3" length="3893228" type="audio/mpeg"/>
+      <itunes:duration>8:06</itunes:duration>
+    </item>
+    <item>
+      <title>Fri Oct 30: Nvidia spy report, Anthropic IPO filing, Mistral Large 4 open weights</title>
+      <description>Sources: The Rundown, TLDR AI, Built In. Stories: alleged Chinese asset near Jensen Huang; Anthropic files to go public, becomes SpaceX&#x27;s top customer, launches Claude self-assessment; Mistral Large 4 weights and open-weight exploit risk; Sam Altman on many AIs vs one superintelligence; agent swarm leadership; quick hits.</description>
+      <guid isPermaLink="false">ai-news-digest-2026-10-30</guid>
+      <pubDate>Fri, 30 Oct 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://ghelmstetter.github.io/ai-news-digest/episodes/2026-10-30.mp3" length="2791340" type="audio/mpeg"/>
+      <itunes:duration>5:48</itunes:duration>
+    </item>
+  </channel>
+</rss>
