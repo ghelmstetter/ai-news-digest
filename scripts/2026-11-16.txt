@@ -1,0 +1,45 @@
+Good morning. This is your A.I. news digest for Monday, November sixteenth. Today's episode draws on The Rundown and TLDR A.I. The big story: a growing push to bring Jensen Huang back to Nvidia. After that, OpenAI's new ChatGPT Wallet, a disputed report about OpenAI's robotics team, and a batch of new models and research.
+
+We start with Nvidia. Days after Jensen Huang resigned as C.E.O. amid multiple reported affairs, Elon Musk, Nvidia employees, and top investors are pushing the board to reconsider. An online petition to reinstate him has passed one hundred forty thousand signatures. Musk and other tech executives signed it.
+
+The petition argues that Huang was removed before any proof of spying surfaced, and before an outside probe had even concluded. It calls for, quote, "due process, not mob justice." More than seven thousand signers claim to be Nvidia staff. In an earlier poll on the anonymous app Blind, eighty-eight percent of two hundred thirty-two Nvidia staffers said Huang should stay.
+
+Musk argued that Nvidia's supply deals are exposed without Huang, because, in his words, many of them "were a handshake with Jensen, not a contract."
+
+The board has not responded publicly and is still picking a search firm, while reports say Huang has been participating in the process of choosing his successor. And the Financial Times reports that Huang is privately weighing a return, with an ally building a "war room" of tech executives to help lobby for it.
+
+The Rundown compares the moment to OpenAI's firing of Sam Altman in 2023, when staff and investor pressure got Altman his job back within days. The difference, it notes, is that Altman's drama stayed mostly internal, while Huang's has spilled into geopolitics, Congress, and the F.B.I.
+
+On that front, lawmakers from both parties are pushing to tighten chip exports to China after Huang's exit, with Speaker Mike Johnson saying a "consensus" is forming.
+
+Next, OpenAI. The company launched ChatGPT Wallet, which lets A.I. agents buy things on a user's behalf without ever seeing an actual card number. It was built with American Express, Mastercard, and Visa, and it requires a security check for every transaction.
+
+Also at OpenAI, Fortune reports the company has moved its robotics team into its main research and product groups. OpenAI's reasoning, per the report, is that general models like G.P.T. six Astra can run robots directly, without needing a separate specialized or world model as previously thought. OpenAI shut down its robotics division in 2020 and rebooted it in 2024, and Sam Altman has said the company is pursuing a humanoid robot of its own.
+
+But staffers quickly pushed back. Engineer David Schnurr called OpenAI robotics "alive and well" and pointed to fifteen open roles. One staffer called the report "completely wrong," and another said the robotics group still has the "same program, roadmap, goals." The Rundown's take: this may be less a story about OpenAI deprioritizing robotics, and more about general models doing more than expected.
+
+G.P.T. six Astra also turned up in a physics story. Physicist Nathaniel Craig worked with Astra to develop a candidate lattice formulation of the Standard Model, addressing a longstanding challenge in defining the theory without relying on perturbative approximations. According to the write-up, Astra helped build the mathematical framework and develop a detailed proof supporting the approach.
+
+In other industry news, SpaceX S.I. reportedly cut most of the Grok Imagine team, about sixty people, eight months after Musk said the company was "doubling down" on the video generator.
+
+And a former Anthropic researcher, Jacob Coxon, said a slide from the company's I.P.O. roadshow convinced him to quit, warning that A.I. research is close to being automated. Separately, Anthropic published guidance on building strong safety evaluations, which it says inform its deployment and training decisions. And Anthropic updated Projects in Claude Code, so the coordinator is more proactive and can answer questions in the project chat while reporting on ongoing threads.
+
+Now to agents. Devin Apps launched: private web apps that the Devin agent builds and hosts from a description, such as dashboards and approval queues. The apps can use a team's existing integrations and codebase, and viewers must sign in to Devin.
+
+A new Personal Agent Protocol, version one point oh, defines how personal agents connect with companies through business agents, websites, and A.P.I.s. Customers control what their agents can and can't do, and can manage that access over time.
+
+And TLDR highlights a deep dive on building always-on agents, which now manage context and act without direct supervision, running on a core loop with event inboxes, timers, memory, permissions, and outboxes.
+
+On the model front, Qwen four Max arrived, pitched as a new teammate for work ranging from 3D modeling and game development to finance, law, health care, and scientific discovery. It can drive Blender for modeling, lighting, and rendering, and can work with leading game engines to deliver a playable game. Smaller models in the family are coming to open source.
+
+Embla one is a reasoning model built to run on a phone, privately, offline, and for free. At four-bit precision, it averages fifty-seven point four across a set of benchmarks, and answers in about one point eight seconds end to end on an iPhone eighteen Pro.
+
+Nvidia researchers showed BirdDreams, a driving world model that turns a single camera image into driving video and a bird's-eye view of the scene. And Meta researchers found that, in multimodal models, dedicated visual processing capacity matters more than how the vision encoder was pretrained.
+
+Two training stories. Thinking Machines published a deep dive on training language models end to end at four-bit precision, covering quantization errors and how formats like B.F. sixteen, M.X. F.P. eight, and N.V. F.P. four affect accuracy. And a team released Quark, a roughly one hundred sixty-five million parameter model trained for about four thousand two hundred dollars of compute. It posts the best benchmark average among open models of its size on similar token budgets, and was built to test every part of the training stack before spending serious money on a large model.
+
+Finally, a reality check from an essay titled "On the Brutality of Amdahl's Law." Its argument: the world is too slow for the double-digit economic growth A.I. is predicted to bring. Electricity, communication, computers, transportation, and agriculture all saw extreme growth, yet G.D.P. per capita growth has held at about two percent for nearly a hundred fifty years.
+
+In tools: Bland released Tofu one, a voice A.I. for enterprise phone agents, and Rayline launched ARC, a router that picks which A.I. model handles each prompt.
+
+That's the digest for today.
