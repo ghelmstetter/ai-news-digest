@@ -1,0 +1,35 @@
+Good morning. This is your AI news digest for Thursday, November 19. Today's episode draws on The Rundown and TLDR AI.
+
+The big story is Google's new model. Google released Gemini 4 Neon, a fast, frontier-level model for complex coding, knowledge work, and science tasks. It is positioned as a faster sibling to Google's top-end Gemini 4 Carbon, and The Rundown notes it is the company's fourth Gemini 4 model in under two months.
+
+Despite its mid-tier label, Neon scored sixty-one on the Artificial Analysis Intelligence Index. That edges out Carbon, and trails only Claude Fable five point two and G.P.T. six point two Astra. In Google's own testing, Neon beat Anthropic's Claude Opus five point five and OpenAI's G.P.T. six point two Sol on sixteen of nineteen benchmarks, with its widest leads in long-document work, office automation, and cyber tasks.
+
+Neon is live now for Google's Pro and Ultra tier users. In the A.P.I. it costs three dollars per million input tokens and fifteen dollars per million output tokens, which The Rundown says is a quarter below both Opus five point five and full-price Carbon.
+
+There's also an intriguing hint about how Google is moving so quickly. The night before launch, Google's Minkai Xu posted that "many people are surprised by how fast R.S.I. moves," which The Rundown reads as a hint that recursive self-improvement may be behind the company's pace. The newsletter's take: for most of twenty twenty-six Google had every advantage, chips, cash, and users, yet was slow to ship the frontier options people wanted. Now, whatever the cause, a switch seems to have flipped, and its run through the periodic table, Argon, Carbon, Hydrogen, and Neon, is showing up in a big way.
+
+Not all the Gemini news is flattering, though. TLDR AI points to a private benchmark in which Gemini 4 Carbon spent close to an hour on bug fixes that Claude Opus five point five and G.P.T. six Astra finished in minutes. Carbon took about seven times as many steps as Astra, and about half of those steps were unnecessary.
+
+And one more Google item for developers. A blog post TLDR highlights found that Google's Antigravity coding tool wipes users' prompt caches after a five-minute pause. Refreshing the cache just before it expires works, but only for three pings. The author also measured that even a five-word prompt starts with roughly thirteen thousand eight hundred to more than sixteen thousand eight hundred tokens of system instructions, tool schemas, and skills. The suggested fix is disabling unused M.C.P. servers and plugins to shrink cold turns and cache misses.
+
+Google had other launches too. It opened Genie 4, its model for generating interactive worlds, to eligible Google A.I. Ultra subscribers in Project Genie. Users can edit a world by typing prompts while they explore it. And Google Labs introduced Stitch Loop, a new tool for iterative product development.
+
+Now to OpenAI, which had several items. OpenAI says design changes proposed by its models cut the circuit area of key parts of its Jalapeño A.I. chip by an estimated ten to thirteen percent. Working with A.M.D., the same approach delivered improvements of up to fourteen percent on A.M.D.'s flagship G.P.U. designs.
+
+OpenAI also posted an update on research acceleration. It says its agents now complete nearly half of two-to-four-hour research tasks on their own, though humans remain central to A.I. development. Agent use is surging, the heaviest users are pulling further ahead, and researchers are devoting increasing human effort to safety and alignment. Separately, OpenAI published a deep look inside the Codex sandbox, which lets its coding agent run commands on a user's own machine within file and network limits the user controls.
+
+On the product side, OpenAI debuted ChatGPT for Sales, a plugin plus more than thirty new and upgraded integrations that pull customer data from tools like Salesforce and HubSpot into ChatGPT.
+
+Meanwhile, there's friction between OpenAI and Microsoft. According to The Rundown, Microsoft is nearing a deal worth roughly five hundred million dollars to give TikTok parent ByteDance more access to OpenAI's models on Azure. That sale has reportedly angered OpenAI, which is concerned about Chinese copycats. Microsoft also has a new image model, M.A.I. Image two point seven, now top-rated for photo edits.
+
+On a related policy note, the Trump administration is reportedly considering requiring U.S. companies to disclose their use of Chinese A.I. The Rundown notes that Chinese models held top usage spots on OpenRouter last month.
+
+Turning to Anthropic, which is heading toward its I.P.O. The Center for A.I. Safety released a public statement against Anthropic ahead of the offering, saying it is "not a safe A.I. company." Signatories include Nobel laureates, x.A.I. co-founder Igor Babuschkin, and Hugging Face co-founder Thomas Wolf. On the business side, one analysis finds Anthropic's compute spending is growing about four times per year, outpacing OpenAI's three times. Anthropic spent nearly ten billion dollars on compute and infrastructure in the third quarter of twenty twenty-six.
+
+In A.I. video, Pika previewed Enact, an experimental tool that works like a live film set. Users can grab a person or object and move it mid-scene, with the A.I. adjusting how it stands and where its shadow falls. Each actor is a separate A.I. agent with its own personality that responds to spoken and text direction and remembers feedback from earlier takes, and the camera stays controllable throughout. Pika said its team was "startled by how much more real and visceral it feels" to make video this way, but Enact isn't available to consumers yet.
+
+A few more quick items. A.I. drug discovery startup Boltz, an M.I.T. spinout, raised one hundred ten million dollars to scale its models that design drug molecules and proteins for hard-to-hit disease targets. Perplexity launched a Context A.P.I. that extracts the full context from any web page as clean text, reading up to ten pages at once, with page metadata and source validation for agents. Prime Intellect introduced Model Factory, a training loop that brings reinforcement learning, fine-tuning, pre-training, and inference into one control plane. Meta described how it uses A.I. agents to spread machine learning improvements across its ads ranking models. And Resolve A.I. introduced S.R.E. one, a model for production engineering that it claims offers the best accuracy at every budget.
+
+Finally, two longer essays that TLDR flagged. An essay titled "Quickly, There's No Time" argues there is a substantial possibility of superintelligence arriving next year, and that any plan has to be ready for the full automation of A.I. research, including ways to slow the resulting growth in capabilities. And a piece called "The Silent Consensus" argues that the most common vision of an A.I. future, often left unsaid, is one in which people have given up effective authority over much of civilization, even if A.I. safety and alignment go well.
+
+That's the digest for today.
