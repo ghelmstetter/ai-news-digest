@@ -1,0 +1,33 @@
+Good morning. This is your AI news digest for Tuesday, November 24. Today's episode draws on The Rundown and T.L.D.R. A.I.
+
+We start with the story that has dominated the tech world for weeks. Nvidia's board has reinstated Jensen Huang as C.E.O., just eleven days after he resigned over affairs with a direct report and with a woman U.S. officials linked to Chinese intelligence. The board vote was unanimous, and it came only six days after chair Harvey Jones had ruled out rehiring him. Huang returns as president, C.E.O., and board director.
+
+According to The Rundown, President Trump said he personally pushed for the return. He told C.N.B.C. he had been "speaking to the board directly and indirectly," and posted that the government sees no reason to view Huang's return as a risk. Nvidia's own announcement says the decision followed U.S. government input confirming no national security risk, and the board said "senior levels" of the government weighed in.
+
+Huang said he takes the job back "with the greatest humility and renewed commitment," and thanked interim C.E.O. Colette Kress, who stays on as chief financial officer. Nvidia also says a committee of independent directors is investigating claims that Huang was targeted by foreign intelligence, and that the company is forming a National Security and Export Control Committee and will appoint a Chief Compliance Officer.
+
+The market reaction was enormous. Nvidia shares jumped more than thirty percent after the open and added over one trillion dollars in market value during trading, which The Rundown calls the single largest daily gain in the history of the stock market. But the case is not closed. Huang still faces a House hearing on December first, and Speaker-designate Hakeem Jeffries called the move "indefensible, irresponsible, and incomprehensible."
+
+Next, a striking essay from Meta. Chief A.I. Officer Alexandr Wang posted on X declaring that "Superintelligence is arriving," and urged the industry to take "meaningfully different actions" from the "default path" it is on. Wang cited Claude's help in proving the Riemann hypothesis as a sign that A.I. could speed up "nearly every field" beyond what "humans can understand or monitor." Wang, who grew up in Los Alamos, said many physicists would call the atomic bomb "a homework problem compared to the Riemann Hypothesis."
+
+He also argued that intelligence no longer holds A.I. back, predicting that models will soon handle all of A.I. research and become "superhuman at improving themselves." At the same time, he called it "lazy thinking" to treat superintelligence as inevitable, and said society should not accept a "handover" to A.I. The Rundown notes this is a departure both from Wang's usual lighthearted tone and from his boss Mark Zuckerberg, who has typically pushed back on slowdown calls.
+
+Now to new models and tools. Z.ai has released G.L.M. five point four, its first flagship model built on what it calls a Loop Transformer. The design reuses a shared block of layers so the model can reason more deeply without adding parameters. Z.ai says it reaches intelligence comparable to models with two to three trillion parameters, and it is available now on the G.L.M. Coding Plan.
+
+Anthropic launched Claude Ship, a set of agents that help get GitHub pull requests ready to merge. Code Review flags issues, P.R. Steward pushes fixes, and Claude Approvals checks changes against a team's approval policy. Anthropic also opened a public beta of Enterprise Frontier Safeguards, which lets businesses keep Claude data in their own cloud while still getting Anthropic's automated misuse detection.
+
+Elsewhere in tools, Canva has opened its design toolkit for A.I. agents, the Canva M.C.P., to everyone. Google has a new mid-tier model called Gemini four Neon. And Grok Bot's Mac app reportedly has local computer use in the works, which would let it operate desktop apps directly instead of only cloud virtual machines.
+
+On the security front, OpenAI and Cisco introduced Shirudo, an open-source runtime that protects running Linux systems while teams roll out patches. It lets teams deploy temporary shields that block exploits without restarting the affected service.
+
+OpenAI also announced OpenWorks, a pilot that pays tech-savvy locals to work with small business owners in twenty U.S. cities, helping them put A.I. to work on a task or problem the owner chooses, at no cost. Partners set aside days each month for hands-on work and teach one community A.I. class a month, with stipends of up to eight thousand dollars monthly. Fifteen of the twenty cities are in the Midwest or South, and the pilot targets independent restaurants, shops, factories, and service businesses. Participants get three free months of ChatGPT Business, while software, venture-backed, and private equity-owned firms are excluded.
+
+In research, Google DeepMind used teams of Gemini four agents to find cheaper versions of known quantum algorithms, with each result proven correct in the Lean theorem prover. The agents exchanged ideas every four hours, and one circuit for fusion energy research cut its computing cost by eleven point eight times. Other results target medicine.
+
+A new paper called SELFWRITE explores letting a model edit its own weights. Each generation, the model studies its own reasoning on fresh problems, inspects its own weights and activations, and writes a program that builds a low-rank weight edit for itself, improving accuracy on a held-out test set without a single gradient step.
+
+Google also described DeepCrossAttention, which lets each transformer layer dynamically select and route features from earlier layers. Google says it reduces parameter count by thirty to forty percent and trains faster with better quality. And Microsoft A.I. detailed Rocket, its in-house reinforcement learning framework for post-training M.A.I. Base two, a three-trillion-parameter model, without distilling from third-party models.
+
+A few final items. Virginia and Oregon have sued SpaceX over Grok, saying Elon Musk's A.I. app let users create and spread explicit deepfakes of real people, including children. A group of more than one hundred fifty-five child safety advocates called on Amazon and eBay to pull A.I. chatbot toys until outside testers vet them, warning of a lack of testing and guardrails. And Sierra, the A.I. customer service startup from former Salesforce co-C.E.O. Bret Taylor, is reportedly raising one point seven five billion dollars at a thirty billion dollar valuation, after topping four hundred million dollars in annual recurring revenue.
+
+That's the digest for today.
